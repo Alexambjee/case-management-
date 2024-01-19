@@ -1,0 +1,219 @@
+.small:hover{
+    text-decoration:underline;
+}
+.badge-count{
+   font-size:12px !important;
+   align-items: center;
+   
+}
+h1{
+    font-size:18px !important;
+    margin-bottom:20px !important;
+    color: #808080 !important;
+}
+.card-header-table{
+    text-transform: uppercase ;
+    text-align: center !important;
+    color:#ccc !important;
+    border-radius: 10px !important;
+}
+.table-header, .headings{
+    background:#ccc;
+    border:none !important;
+    outline:none;
+    
+}
+.detail-card{
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+.card-items{
+    display:flex !important;
+    justify-content:space-between !important;
+    margin-bottom:10px;
+    
+}
+.card-items span{
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:10px !important;
+}
+.card-items p{
+    text-transform: capitalize;
+    font-size:12px !important;
+
+}
+.card-content{
+    gap:10px !important;
+}
+.file-section .download-lists{
+    max-height:120px;
+    overflow-y:scroll;
+    margin-top:10px !important;
+}
+.file-section.top-header{
+    margin-bottom:10px;
+    padding-bottom:5px;
+}
+.file-section.top-header span{
+    font-weight:600;
+    text-transform:capitalize;
+    font-size:14px;
+    text-decoration:underline;
+}
+.file-section.bottom-header span{
+    text-transform:capitalize;
+    font-size:12px;
+    
+}
+.file-section .download-default{
+    margin-right: 10px;
+}
+.file-section .download-lists::-webkit-scrollbar,
+.email-texarea::-webkit-scrollbar{
+    width: .3rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    background-color:transparent;
+}
+.file-section .download-lists::-webkit-scrollbar-thumb,
+.email-texarea::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+.file-section .download-lists::-webkit-scrollbar-thumb:hover,
+.email-texarea::-webkit-scrollbar-thumb:hover{
+    background-color: #cccc;
+}
+.file-section .download-lists .download-item{
+    margin-bottom:10px;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #D3D3D3;
+    margin-right:10px;
+
+}
+.file-section .download-lists .download-item .download-rounded{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#0E86D4;
+    color:#fff;
+    border-radius:50%;
+    padding:6px;
+    margin-bottom:10px;
+
+}
+.attachment-btns .download-rounded
+{
+    margin-left: 10px !important;
+}
+.card-footer{
+    background:transparent; border-style:none;
+}
+.card-footer .small{
+    color:#ccc !important;
+}
+.email-textarea{
+    text-align:left !important;
+}
+.form-content .form-group{
+    margin-bottom:10px;
+    text-transform:capitalize;
+    margin-top:5px;
+}
+.form-content .form-group label{
+    font-weight:600;
+    color:gray;
+    font-size:13px !important;
+}
+
+.message-reduced span{
+    display:inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 43ch;
+}
+.label{
+    font-weight:500 !important;
+    color:#888 !important;
+    font-size:13px !important;
+    margin-bottom: 10px !important;
+}
+input[type='text'],
+input[type='email'],
+input[type='password']
+{
+    font-size:13px;
+}
+
+table thead input {
+	width: 100%;
+	/* padding: 3px; */
+	box-sizing: border-box;
+}
+table thead{
+    font-size: 11px !important;
+}
+table tbody{
+    font-size: 12px !important;
+}
+
+.text-bold{
+    font-weight: bold !important; 
+    font-size: 12px !important;
+    color: black !important;   
+}
+i{
+    cursor: pointer !important;
+}
+
+.input.invalid{
+    border:0.7px solid rgba(255, 0, 0, 0.74);;
+
+}
+#error{
+    color:rgba(255, 0, 0, 0.74);
+}
+.card.bg-greeny{
+    background: #03C04A !important ;
+}
+/* button[disabled],button[loading]{
+    background: rgba(0, 0, 0, 0.719) !important;
+    text-align: center !important;
+}
+
+.button-print{
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: blue;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    touch-action: manipulation;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+
+
+.button-print:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
